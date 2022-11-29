@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>adem abbes</title>
+</head>
+<body style="background-color: orange;">
+<form>
+	<h1 style="font-family: cursive;" align="center">Piere de remplir ce formulaire</h1>
+	<fieldset style="background-color: white;">
+		<legend><b>Vos coordonées</b></legend>
+		<p>
+			<b>
+				<label>votre pseudo:</label>
+			</b>
+			<input name="pseudo" style="font-weight: 700;">
+		</p>
+		<p>
+			<b>
+				<label>votre mot de passe:</label>
+			</b>
+			<input  type="password" name="password" style="font-weight: 700;">
+		</p>
+		<p>
+			<b>
+				<label>votre mail:</label>
+			</b>
+			<input type="email" name="email" style="font-weight: 700;">
+		</p>
+		<p>
+			<b>Vous êtes:</b>
+			<input type="radio" name="sexe" style="font-weight: 700;">
+			<label>femme</label>
+			<input type="radio" name="sexe" style="font-weight: 700;">
+			<label>Homme</label>
+		</p>
+		<p>
+			<b>vous habitez ? :</b>
+			<select name="ville" style="font-weight: 700;">
+			   <optgroup label="sahel">
+					<option>sousse</option>
+					<option>mounastir</option>
+					<option>mahdia</option>
+			   </optgroup>
+			   <optgroup label="grand tunise">
+				     <option>ariana</option>
+				     <option>ben arous</option>
+			   </optgroup>
+			</select>
+		</p>
+	</fieldset>
+	<fieldset style="background-color: white;">
+		<legend>vos avis</legend>
+		<p>
+			Vous aimez
+			<input type="checkbox" name="dessiner " style="font-weight: 700;">
+			<label>Dessiner</label>
+			<input type="checkbox" name="chanter" style="font-weight: 700;">
+			<label>chanter</label>
+			<input type="checkbox" name="voyager" style="font-weight: 700;">
+			<label>voyager</label>
+		</p>
+		<p>
+			<label>laisser votre commentaire</label> <br>
+			<textarea name="commentaire"></textarea>
+		</p>
+		</fieldset>
+			<input type="submit" name="envoyer" value="Envoyer">
+			<input type="reset" name="annuler" value="Annuler">
+</form>
+</body>
+</html>
